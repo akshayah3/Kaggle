@@ -6,7 +6,7 @@ from sklearn import cross_validation as cv
 from sklearn.ensemble import ExtraTreesClassifier
 from sklearn.svm import SVC
 
-workDir = r'C:\users\Pavan\Downloads\kaggle\\'
+workDir = r'C:\users\Akshay\Downloads\kaggle\\'
 
 # Read data
 train = np.genfromtxt(open(workDir + 'train.csv','rb'), delimiter=',')
